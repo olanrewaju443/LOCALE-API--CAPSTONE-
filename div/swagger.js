@@ -32,11 +32,11 @@ const doc = {
     info: {
         title: 'Locale API',
         version: '1.0.0',
-        description: `With Locale's API, users can access detailed data on Nigeria's regions, states, and local government areas (LGAs). `,
+        description: `With Locale's API, users can access detailed data on Nigeria's states, region and local government areas (LGAs). `,
         contact: {
             name: 'Adegboye Michael',
             url: 'http://localhost:5000',
-            email: 'olanrewaju@gmail.com'
+            email: 'olanrewaju443@gmail.com'
         }
     },
     servers: [

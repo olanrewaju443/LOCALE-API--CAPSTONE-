@@ -25,7 +25,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const dotenv = __importStar(require("dotenv"));
 dotenv.config();
-// Loading process.env as ENV interface
+// Loading process.env as ENV coordinate
 const getConfig = () => {
     return {
         PORT: process.env.PORT ? Number(process.env.PORT) : undefined,

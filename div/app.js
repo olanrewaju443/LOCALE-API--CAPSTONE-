@@ -50,7 +50,7 @@ app.use(express_1.default.json());
 app.get("/", (req, res) => {
     res.status(200).json({
         status: "success",
-        message: `Hello There! Welcome to Michael's Geolocation app!`,
+        message: `Hello !!!! Welcome to Michael's Locale app!`,
     });
 });
 app.use("/api/v1/locale", localeRoute_1.default);
@@ -67,7 +67,7 @@ app.use("*", (req, res) => {
 app.use((err, req, res, next) => {
     console.log(err);
     const errorStatus = err.status || 500;
-    const errorMessage = err.message || "Something wrong!";
+    const errorMessage = err.message || "Something broke!";
     res.status(errorStatus).json({
         status: "failed",
         message: errorMessage,

@@ -16,7 +16,7 @@ exports.cache = exports.client = void 0;
 const redis_1 = require("redis");
 const config_1 = __importDefault(require("./config"));
 exports.client = (0, redis_1.createClient)({
-    url: `redis://${config_1.default.REDIS_USERNAME}:${config_1.default.REDIS_PASSWORD}@${config_1.default.REDIS_HOST}:${config_1.default.REDIS_PORT}/#11723373`,
+    url: `redis://${config_1.default.REDIS_USERNAME}:${config_1.default.REDIS_PASSWORD}@${config_1.default.REDIS_HOST}:${config_1.default.REDIS_PORT}#1847232`,
 });
 // export const client = createClient({});
 //Cache middleware
