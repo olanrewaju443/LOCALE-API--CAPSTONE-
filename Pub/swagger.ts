@@ -19,7 +19,7 @@ const doc = {
         },
         {
             description: 'Production Route',
-            url: 'https://'
+            url: 'https://https://geofinder-wqor.onrender.com'
         }
     ],
     host: 'localhost:5000',
